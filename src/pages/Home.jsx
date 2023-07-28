@@ -43,12 +43,12 @@ const Home = () => {
                 </h2>
                 <div className="buttons">
                   {/* <NavLink to="/resume"> */}
-                    <button class="btn" role="button">
+                    <button class="home-btn" role="button">
                       Resume
                     </button>
                   {/* </NavLink> */}
                   <NavLink to="/Projects">
-                    <button class="btn" role="button">
+                    <button class="home-btn" role="button">
                       Projects
                     </button>
                   </NavLink>

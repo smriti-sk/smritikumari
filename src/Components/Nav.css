@@ -17,6 +17,7 @@ html, body {
     text-decoration: none;
     color: var(--black);
     font-weight: 500;
+    font-size: 26px;
     transition: color 0.3s ease-in-out;
 }
 .nav-item:hover {
@@ -35,14 +36,14 @@ html, body {
   justify-content: space-between;
   background-color: var(--white);
   color: var(--black);
-  height: 50px;
-  padding: 1.5em 1em;
+  height: 70px;
+  padding: 1.5em 1.5em;
   /* opacity: 0.85; */
   z-index: 10;
 }
-.title{
-  font-size: 1.2em;
-  font-weight: 720;
+.nav-title{
+  font-size: 28px;
+  font-weight: 750;
 }
 .subtitle{
   font-size: 0.9em;
@@ -148,7 +149,7 @@ html, body {
   }
   #menu-toggle:checked ~ .menu li {
     border: 1px solid #efefef;
-    height: 2.5em;
+    height: 3em;
     padding: 0.5em;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -156,7 +157,7 @@ html, body {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0.5em 0;
+    padding: 1em;
     width: 100%;
     color: var(--black);
     background-color: var(--white);

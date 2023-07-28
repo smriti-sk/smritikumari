@@ -65,9 +65,13 @@
   }
   .intro > p {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
     color: var(--grey);
     line-height: 1.5em;
+  }
+  .home-btn {
+    padding: 0.5rem 1.3rem;
+    font-size: 2.5em;
   }
 }
 @media screen and (max-width: 500px) {
@@ -77,8 +81,9 @@
   .item1 {
     min-height: 120vh;
   }
-  .btn {
-    padding: 0.45rem 1.2rem;
+  .home-btn {
+    padding: 0.5rem 1.3rem;
+    font-size: 2.2em;
   }
 }
 

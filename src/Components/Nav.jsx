@@ -16,7 +16,7 @@ const Nav = () => {
   return (
     <div>
       <section className="top-nav">
-        <div ><span className='title'>Smriti Kumari</span><span className='subtitle'> / Full Stack Developer</span></div>
+        <div ><span className='nav-title'>Smriti Kumari</span><span className='subtitle'> / Full Stack Developer</span></div>
         <input id="menu-toggle" type="checkbox" checked={isMenuOpen} onChange={handleMenuToggle} />
         <label className="menu-button-container" htmlFor="menu-toggle">
           <div className="menu-button"></div>
