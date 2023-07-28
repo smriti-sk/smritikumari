@@ -13,16 +13,16 @@ const ProjectGallery = () => {
   const projects = [
     {
       title: "InkFlow",
-      description: "Description for Project 1",
+      description: " Created a real-time word processor for document creation and editing. Implemented document storage functionality.",
       imageUrl: inkFlow,
-      projectUrl: "",
+      projectUrl: "https://github.com/smriti-sk/Ink-Flow",
     },
     {
       title: "Portfolio Website",
       description:
         "Build my own portfolio website from scratch including all the relevant content using React.js, Bootstrap.",
       imageUrl: portfolio,
-      projectUrl: "",
+      projectUrl: "https://smriti-kumari.netlify.app/",
     },
     {
       title: "Video Conferencing App",
@@ -34,7 +34,7 @@ const ProjectGallery = () => {
       title: "Stack Overflow Clone",
       description: "Video Chat App with React.js and WebRTC",
       imageUrl: stackOverflow,
-      projectUrl: "",
+      projectUrl: "https://github.com/smriti-sk/stackoverflow-clone-fullstack",
     },
     {
       title: "Expense Tracker",
@@ -47,13 +47,13 @@ const ProjectGallery = () => {
       title: "Tic-Tac-Toe",
       description: "The classic Tic-Tac-Toe game for free offline with two players using Python and tkinter library.",
       imageUrl: tictactoe,
-      projectUrl: "",
+      projectUrl: "https://github.com/smriti-sk/TicTacToe-python",
     },
     {
       title: "Youtube Clone - Frontend",
       description: "YouTube clone website using HTML, CSS, JavaScript.",
       imageUrl: youtubeclone,
-      projectUrl: "https://github.com/smriti-sk/Youtube-Clone-frontend",
+      projectUrl: "https://smriti-sk.github.io/Youtube-Clone-frontend/",
     },
     // Add more projects here
   ];
