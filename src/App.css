@@ -1,38 +1,13 @@
-.App {
-  text-align: center;
-}
+@import url(https://fonts.googleapis.com/css?family=Grand);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root {
+  --black: #040303;
+  --white: #ffffff;
+  --seablue: #a0e9f8;
+  --grey: #3b413c;
+  --blue: #4b47d3;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  --mainpage-padding: 70px;
+  --boxshadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }

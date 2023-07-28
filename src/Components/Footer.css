@@ -1,0 +1,24 @@
+.main-footer{
+    margin: 0;
+    text-align: center;
+    padding: 20px 5px 5px 5px;
+}
+.footer-links{
+    font-size: 10px;
+    /* position: absolute; */
+    left: 2em;
+}
+.footer-links > h4{
+    font-size: 20px;
+    margin: 1em 0 0 0;
+}
+.main-footer > p{
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.quote{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+    font-weight: 200;
+}
