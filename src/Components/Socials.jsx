@@ -54,7 +54,7 @@ const Socials = () => {
         <li className="link">
           <a
             className=" contact-img"
-            href="mailto:smriti20v30@gmail.com"
+            href="mailto:smritikumari049@gmail.com"
             alt="email"
           >
             <FontAwesomeIcon

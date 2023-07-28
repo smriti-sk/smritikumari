@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import "./HomeMoblie.css";
+import { NavLink } from "react-router-dom";
 import profilePhoto from "../Images/smriti.png";
 import Socials from "../Components/Socials";
 
@@ -41,12 +42,16 @@ const Home = () => {
                   My name is Smriti Kumari and I am a Full Stack Developer
                 </h2>
                 <div className="buttons">
-                  <button class="btn" role="button">
-                    Resume
-                  </button>
-                  <button class="btn" role="button">
-                    Projects
-                  </button>
+                  {/* <NavLink to="/resume"> */}
+                    <button class="btn" role="button">
+                      Resume
+                    </button>
+                  {/* </NavLink> */}
+                  <NavLink to="/Projects">
+                    <button class="btn" role="button">
+                      Projects
+                    </button>
+                  </NavLink>
                 </div>
                 <p>
                   I'm a skilled Full-Stack Engineer with a passion for building
