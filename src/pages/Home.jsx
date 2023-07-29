@@ -42,11 +42,11 @@ const Home = () => {
                   My name is Smriti Kumari and I am a Full Stack Developer
                 </h2>
                 <div className="buttons">
-                  {/* <NavLink to="/resume"> */}
-                    <button class="home-btn" role="button">
-                      Resume
-                    </button>
-                  {/* </NavLink> */}
+                  <NavLink to="/Resume">
+                  <button class="home-btn" role="button">
+                    Resume
+                  </button>
+                  </NavLink>
                   <NavLink to="/Projects">
                     <button class="home-btn" role="button">
                       Projects
@@ -64,6 +64,13 @@ const Home = () => {
                   to me by clicking the "Contact" button below. Let's
                   collaborate and create something extraordinary!
                 </p>
+                <div className="buttons">
+                  <NavLink to="/Contact">
+                    <button class="home-contact-btn" role="button">
+                      Contact Me!
+                    </button>
+                  </NavLink>
+                </div>
               </div>
             </div>
           </div>

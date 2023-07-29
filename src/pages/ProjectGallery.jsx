@@ -8,12 +8,12 @@ import youtubeclone from "../Images/youtubeclone.png";
 import inkFlow from "../Images/InkFlow.png";
 import stackOverflow from "../Images/stackOverflow.png";
 
-
 const ProjectGallery = () => {
   const projects = [
     {
       title: "InkFlow",
-      description: " Created a real-time word processor for document creation and editing. Implemented document storage functionality.",
+      description:
+        " Created a real-time word processor for document creation and editing. Implemented document storage functionality.",
       imageUrl: inkFlow,
       projectUrl: "https://github.com/smriti-sk/Ink-Flow",
     },
@@ -32,7 +32,8 @@ const ProjectGallery = () => {
     },
     {
       title: "Stack Overflow Clone",
-      description: "Video Chat App with React.js and WebRTC",
+      description:
+        "Developed a Real-Time Stack Overflow Clone using MERN Stack and hosted with Firebase. Implemented a chatbot feature for direct user interaction.",
       imageUrl: stackOverflow,
       projectUrl: "https://github.com/smriti-sk/stackoverflow-clone-fullstack",
     },
@@ -45,7 +46,8 @@ const ProjectGallery = () => {
     },
     {
       title: "Tic-Tac-Toe",
-      description: "The classic Tic-Tac-Toe game for free offline with two players using Python and tkinter library.",
+      description:
+        "The classic Tic-Tac-Toe game for free offline with two players using Python and tkinter library.",
       imageUrl: tictactoe,
       projectUrl: "https://github.com/smriti-sk/TicTacToe-python",
     },

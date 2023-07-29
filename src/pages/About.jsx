@@ -19,7 +19,7 @@ const About = () => {
         </p>
       </div>
       <div className="about-section what-i-do">
-        <h2>What I do?</h2>
+        <h2>What do I do?</h2>
         <div className="about-subsection">
           <h3>I'm a Developer</h3>
           <p>
