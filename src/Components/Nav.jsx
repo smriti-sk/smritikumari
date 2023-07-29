@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import './Nav.css';
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import "./Nav.css";
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,12 +16,22 @@ const Nav = () => {
   return (
     <div>
       <section className="top-nav">
-        <div ><span className='nav-title'>Smriti Kumari</span><span className='subtitle'> / Full Stack Developer</span></div>
-        <input id="menu-toggle" type="checkbox" checked={isMenuOpen} onChange={handleMenuToggle} />
+        <div>
+          <NavLink to="/">
+            <span className="nav-title"> Smriti Kumari</span>
+          </NavLink>
+          <span className="subtitle"> / Full Stack Developer</span>
+        </div>
+        <input
+          id="menu-toggle"
+          type="checkbox"
+          checked={isMenuOpen}
+          onChange={handleMenuToggle}
+        />
         <label className="menu-button-container" htmlFor="menu-toggle">
           <div className="menu-button"></div>
         </label>
-        <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
+        <ul className={`menu ${isMenuOpen ? "open" : ""}`}>
           <li>
             <NavLink
               to="/"

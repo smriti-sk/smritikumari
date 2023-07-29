@@ -144,8 +144,8 @@
 }
 .home-contact-btn {
   padding: 0.5rem 1.2rem;
-  background-color: var(--blue);
-  border: 2px solid var(--blue);
+  background-color: var(--black);
+  border: 2px solid var(--black);
   font-size: 1rem;
   color: var(--white);
   line-height: 1;
@@ -157,7 +157,7 @@
   
 }
 .home-contact-btn:hover {
-  background-color: var(--seablue);
+  background-color: var(--white);
   color: var(--black);
   border: 2px solid var(--black);
 }
