@@ -10,7 +10,7 @@ const Home = () => {
     <section className="main-home">
       <div class="grid-container">
         <div class="item1">
-          Blue
+          
           <div class="content">
             <div className="content-grid">
               <div className="card">
@@ -75,7 +75,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div class="item2">White</div>
+        <div class="item2"></div>
       </div>
     </section>
   );
