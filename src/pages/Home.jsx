@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import "./HomeMoblie.css";
 import { NavLink } from "react-router-dom";
-import profilePhoto from "../Images/smriti.png";
+import profilePhoto from "../Images/profile-pic (1).png";
 import Socials from "../Components/Socials";
 
 const Home = () => {
