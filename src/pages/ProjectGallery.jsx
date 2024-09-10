@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import newsApp from "../Images/newsApp.png"
 import portfolio from "../Images/portfolio.png";
 import expenseTracker from "../Images/ExpenseTracker.png";
 import videoConfrencing from "../Images/VideoConfrencing.png";
@@ -10,6 +11,20 @@ import stackOverflow from "../Images/stackOverflow.png";
 
 const ProjectGallery = () => {
   const projects = [
+    {
+      title: "News Aggregator App",
+      description: (
+        <>
+          This is a web-based application designed to provide you with real-time
+          news updates from around the globe.
+          <br />
+          <b>Advanced Search Functionality:</b> Filter news by keywords, date,
+          language, location, and publisher.
+        </>
+      ),
+      imageUrl: newsApp,
+      projectUrl: "https://github.com/smriti-sk/News-App",
+    },
     {
       title: "InkFlow",
       description:

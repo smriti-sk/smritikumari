@@ -1,7 +1,7 @@
 import React from "react";
 import "./Resume.css";
 import Iframe from "react-iframe";
-import resumepdf from "../assets/Smriti_Kumari_Webdev.pdf"
+import resumepdf from "../assets/Smriti_Kumari_CV.pdf"
 
 const Resume = () => {
   return (
